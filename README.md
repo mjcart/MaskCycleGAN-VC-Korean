@@ -1,7 +1,8 @@
-# MaskCycleGAN-VC
+# MaskCycleGAN-VC-Korean
+[**https://github.com/GANtastic3/MaskCycleGAN-VC**](https://github.com/GANtastic3/MaskCycleGAN-VC)의 repo를 가져와 재구현 및 외부 데이터 학습을 진행하였다.
 Unofficial **PyTorch** implementation of Kaneko et al.'s [**MaskCycleGAN-VC**](http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/maskcyclegan-vc/index.html) (2021) for non-parallel voice conversion.
 
-MaskCycleGAN-VC is the state of the art method for non-parallel voice conversion using CycleGAN. It is trained using a novel auxiliary task of filling in frames (FIF) by applying a temporal mask to the input Mel-spectrogram. It demonstrates marked improvements over prior models such as CycleGAN-VC (2018), CycleGAN-VC2 (2019), and CycleGAN-VC3 (2020).
+MaskCycleGAN-VC는 CycleGAN을 사용한 non-parallel한 음성 변환을 위한 최신 방법이다. 입력 Mel-spectrogram에 filling in frame(FIF)을 채우는 새로운 보조 작업을 사용하여 훈련된다. It demonstrates marked improvements over prior models such as CycleGAN-VC (2018), CycleGAN-VC2 (2019), and CycleGAN-VC3 (2020).
 
 <p align="center">
 <img src="imgs/MaskedCycleGAN-VC.png" width="500">
